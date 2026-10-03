@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.bun-cache/
+
+# Database (real factory data — never commit)
+app.db
+app.db-shm
+app.db-wal
+*.db
+*.sqlite
+*.sqlite3
+
+# Build outputs
+client/dist/
+client/dist-cvm/
+server/dist/
+.space-build/
+.space-build-cvm/
+
+# Runtime / tooling
+.harness/
+audits/
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
